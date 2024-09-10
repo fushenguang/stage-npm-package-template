@@ -19,7 +19,8 @@
     "local-release": "changeset version && changeset publish",
     "prepublishOnly": "npm run ci",
     "ci": "npm run build && npm run check-format && npm run check-exports && npm run lint && npm run test",
-    "test": "vitest run"
+    "test": "vitest run",
+    "prepare": "husky"
   },
   "author": "JiaFu<fujia.site@gmail.com>",
   "license": "MIT",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.16.1",
     "@changesets/cli": "^2.27.8",
+    "husky": "^9.1.5",
     "prettier": "^3.3.3",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4",
