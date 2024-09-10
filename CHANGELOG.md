@@ -1,5 +1,11 @@
 # stage-npm-package-template
 
+## 1.1.4
+
+### Patch Changes
+
+- a9ddd0a: resolve warnings of check-exports
+
 ## 1.1.3
 
 ### Patch Changes
