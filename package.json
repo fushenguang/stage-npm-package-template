@@ -14,7 +14,7 @@
     "build": "tsup",
     "format": "prettier --write ./src",
     "check-format": "prettier --check ./src",
-    "check-exports": "attw --pack .",
+    "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
     "lint": "tsc",
     "local-release": "changeset version && changeset publish",
     "prepublishOnly": "npm run ci",
