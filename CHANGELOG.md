@@ -1,5 +1,11 @@
 # stage-npm-package-template
 
+## 1.1.3
+
+### Patch Changes
+
+- 53f245e: resolve whole configs
+
 ## 1.1.2
 
 ### Patch Changes
