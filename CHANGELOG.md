@@ -1,5 +1,11 @@
 # stage-npm-package-template
 
+## 1.1.2
+
+### Patch Changes
+
+- 6513e65: add LICENSE file
+
 ## 1.1.1
 
 ### Patch Changes
