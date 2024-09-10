@@ -1,0 +1,1 @@
+# stage-npm-package-template
